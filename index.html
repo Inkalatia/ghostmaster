@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支持《幽灵大师》 - 读者支持页面</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans", "Noto Sans TC", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            color: #333;
+        }
+        .bg-blur {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url('https://user10844.na.imgto.link/public/20260512/background.avif');
+            background-size: cover;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+        .book-cover-round {
+            width: 118px;
+            height: 118px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 0 auto 25px;
+            overflow: hidden;
+        }
+        .book-cover-round img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .book-title {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #221638;
+            font-weight: 700;
+        }
+        .author {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        .text-content {
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: left;
+            font-size: 16px;
+        }
+        .qr-container {
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            display: inline-block;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #f0f0f0;
+        }
+        .qr-container img {
+            width: 260px;
+            height: auto;
+            display: block;
+        }
+        /* New Styles for Book Series Preview */
+        .book-series-preview {
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+        }
+        .book-series-title {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .book-covers {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        .book-item {
+            text-align: center;
+            max-width: 120px;
+        }
+        .book-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            border: 2px solid white;
+            margin-bottom: 8px;
+        }
+        .book-label {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .book-status {
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+        .foot-note {
+            font-size: 14px;
+            color: #777;
+            margin-top: 25px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-blur"></div>
+
+    <div class="card">
+        <!-- Round Book Cover -->
+        <div class="book-cover-round">
+            <img src="https://user10844.na.imgto.link/public/20260512/avatar.avif" alt="《幽灵大师》封面">
+        </div>
+
+        <!-- Book Title & Author -->
+        <h1 class="book-title">《幽灵大师》读者支持页</h1>
+        <p class="author">作者: Victor Reyes Cespedes</p>
+
+        <!-- Donation Message -->
+        <div class="text-content">
+            <p>感谢你阅读《幽灵大师》。构思、创作和打磨这个世界与这个奇幻故事，是一段漫长的旅程。我无比自豪能将这部作品从原文翻译成中文呈现给大家，但这绝非易事。</p>
+            <p style="margin-top: 1em;">第二部已在路上！如果你期待后续的故事，并希望它能更快到来，欢迎用一杯奶茶支持我的创作。</p>
+            <p style="margin-top: 1em;">扫描下方二维码，即可直接支持。你的每一次鼓励，都让这个故事走得更远。</p>
+        </div>
+
+        <!-- QR Code -->
+        <div class="qr-container">
+            <img src="https://user10844.na.imgto.link/public/20260512/qrcode.avif" alt="微信支付 / 支付宝 支持二维码">
+        </div>
+
+        <!-- New: Book Series Preview -->
+        <div class="book-series-preview">
+            <h3 class="book-series-title">《幽灵大师》系列</h3>
+            <div class="book-covers">
+                <div class="book-item">
+                    <img src="https://user10844.na.imgto.link/public/20260512/book1.avif" alt="幽灵大师 第一部 封面">
+                    <div class="book-label">第一部</div>
+                    <div class="book-status">已出版 · 简体中文</div>
+                </div>
+                <div class="book-item">
+                    <img src="https://user10844.na.imgto.link/public/20260512/book2.avif" alt="幽灵大师 第二部 封面">
+                    <div class="book-label">第二部</div>
+                    <div class="book-status">即将翻译 · 敬请期待</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="foot-note">感谢你踏入这个奇幻世界。<br>你的支持将直接助力《幽灵大师》系列的后续创作。</p>
+    </div>
+</body>
+</html>
